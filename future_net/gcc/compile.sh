@@ -8,7 +8,8 @@ cd build
 cmake ../future_net
 make
 cd ..
-rm temp/result0.csv
+rm -fr temp
+mkdir temp
 ./bin/future_net ../test-case/case0/topo.csv ../test-case/case0/demand.csv temp/result0.csv
 echo
 echo "The result0 is： "
