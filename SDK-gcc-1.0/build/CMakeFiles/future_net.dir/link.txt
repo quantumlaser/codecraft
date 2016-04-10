@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\future_net.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\future_net.dir/objects.a @CMakeFiles\future_net.dir\objects1.rsp
+C:\MinGW\bin\g++.exe   -O0 -Wall -g -ggdb   -Wl,--whole-archive CMakeFiles\future_net.dir/objects.a -Wl,--no-whole-archive  -o D:\Workspace\code2016\codecraft\SDK-gcc-1.0\bin\future_net.exe -Wl,--out-implib,D:\Workspace\code2016\codecraft\SDK-gcc-1.0\bin\libfuture_net.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\future_net.dir\linklibs.rsp
